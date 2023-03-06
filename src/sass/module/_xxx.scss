@@ -1,0 +1,58 @@
+@use "global" as *;
+
+.xxx {
+    background: rgba(32, 178, 170, 0.5);
+    display: block;
+    width: 20%;
+    margin: rem(30) 0;
+    padding: rem(20);
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.ease {
+    transition: 1s ease;
+}
+
+.ease-in {
+    transition: 1s ease-in;
+}
+
+.ease-out {
+    transition: 1s ease-out;
+}
+
+.ease-in-out {
+    transition: 1s ease-in-out;
+}
+
+.linear {
+    transition: 1s linear;
+}
+
+.ease-start {}
+
+// button
+button {
+    padding: rem(5) rem(30);
+    background: rgba(154, 205, 50, 1);
+    border-radius: 5%;
+    margin-bottom: rem(50);
+
+}
+
+// button click時の動作
+.ease-start,
+.ease-in-start,
+.ease-out-start,
+.ease-in-out-start,
+.linear-start {
+    width: 100%;
+}
+
+// text
+ul>li {
+    line-height: rem(30);
+}
