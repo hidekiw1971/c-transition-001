@@ -1,4 +1,4 @@
-画像をコピペ
+<img width="1383" alt="image" src="https://user-images.githubusercontent.com/99580997/223256395-c2bfdaf5-d16a-40b3-bcad-43a61ed7147f.png">
 
 # compornent（共通部品）
 - transition各種検証
