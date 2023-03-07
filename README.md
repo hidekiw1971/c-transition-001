@@ -21,6 +21,7 @@
 
 ## reference site:
 - https://www.asobou.co.jp/blog/web/css-animation3
+- https://pengi-n.co.jp/blog/css-transition/
 
 ## 更新履歴
 
